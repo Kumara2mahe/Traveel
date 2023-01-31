@@ -3,7 +3,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 300;
-    src: url("../Font/Poppins/Poppins-Light.ttf") format("truetype");
+    src: url("../../Font/Poppins/Poppins-Light.ttf") format("truetype");
 }
 
 /* Normal - 400 */
@@ -11,7 +11,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    src: url("../Font/Poppins/Poppins-Regular.ttf") format("truetype");
+    src: url("../../Font/Poppins/Poppins-Regular.ttf") format("truetype");
 }
 
 /* Medium - 500 */
@@ -19,7 +19,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
-    src: url("../Font/Poppins/Poppins-Medium.ttf") format("truetype");
+    src: url("../../Font/Poppins/Poppins-Medium.ttf") format("truetype");
 }
 
 /* Extrabold - 800 */
@@ -27,5 +27,5 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 800;
-    src: url("../Font/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+    src: url("../../Font/Poppins/Poppins-ExtraBold.ttf") format("truetype");
 }

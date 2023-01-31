@@ -98,6 +98,8 @@ img.normal {
 .g-text {
     background: var(--gradient1);
     color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     background-clip: text;
 }
 
@@ -438,6 +440,8 @@ footer .copyrights .separator {
 footer .copyrights .designer:hover {
     background: var(--gradient2);
     color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     background-clip: text;
 }
 

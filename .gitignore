@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Firebase cache
+.firebase/
+
+# Firebase config
+.firebaserc
+firebase.json
+
+# Error template
+404.*
