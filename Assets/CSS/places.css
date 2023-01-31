@@ -1,0 +1,414 @@
+/* ---------------------- Places Page | Styles -------------------------
+------------------------------------------------------------------ */
+
+.top-container {
+    background-image: url("../Images/Places/usa/golden-gate-bridge-san-francisco/w2400.webp");
+    background-position: bottom;
+}
+
+.places-container {
+    background-color: rgba(204, 204, 204, 0.2);
+    margin-top: 8em;
+    padding: 4em 0;
+}
+
+/* -------------- Places-Container (Heading) | Styles -------------- */
+.places-container .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.places-container .main .heading {
+    font-size: 1.8em;
+}
+
+/* --- Sub-Heading | Styles --- */
+.places-container .main h2 {
+    font-size: 1.5em;
+}
+
+.places-container .main h2 .count {
+    color: var(--orangepeel);
+}
+
+.places-container .sub-text {
+    color: var(--davysgrey);
+    padding-left: 1em;
+    border-left: 0.25em solid var(--orangepeel);
+}
+
+/* -------------- Packages-Container | Styles -------------- */
+.places-container .packages-container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: row;
+    gap: 5em;
+    color: var(--black);
+    margin: 6em auto;
+}
+
+/* ------------ Package | Styles ------------- */
+.places-container .packages-container .package {
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap: 3em;
+    padding: 1em 2em 3em;
+    border: 0.2em solid rgba(80, 80, 80, 0.2);
+}
+
+/* --- Package-Heading | Styles --- */
+.places-container .packages-container .package .country-name {
+    font-size: 2em;
+    text-align: right;
+    grid-column: 1/3;
+    color: var(--davysgrey);
+    margin: 0;
+}
+
+/* --- Package-Card | Styles --- */
+.places-container .packages-container .package .place-card {
+    background-color: var(--white);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 2em rgba(80, 80, 80, 0.2);
+}
+
+.places-container .packages-container .package .place-card .thumb {
+    height: 20em;
+    overflow: hidden;
+}
+
+.places-container .packages-container .package .place-card img {
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+
+.places-container .packages-container .package .place-card:hover img {
+    transform: scale(1.5);
+    transition: 4s;
+}
+
+.places-container .packages-container .package .place-card .separator {
+    opacity: 0.3;
+}
+
+/* --- Package-Detail | Styles --- */
+.places-container .packages-container .package .place-card .details {
+    padding: 0 1.5em 1.5em;
+}
+
+.places-container .packages-container .package .place-card .accomodations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 1em;
+}
+
+.places-container .packages-container .package .place-card .accomodations .symbol {
+    color: var(--silverchalice);
+}
+
+/* --- BookNow-Btn | Styles --- */
+.places-container .packages-container .package .place-card .booking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.places-container .packages-container .package .place-card .booking .book-btn {
+    font-size: 1.1em;
+    display: inline-block;
+    background-color: var(--fandangopink);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+.places-container .packages-container .package .place-card .booking .book-btn:hover {
+    transform: scale(1.05);
+}
+
+.places-container .packages-container .package .place-card .booking .book-btn:active {
+    color: var(--white);
+}
+
+.places-container .packages-container .package .place-card .booking .price {
+    font-size: 1.2em;
+    color: var(--davysgrey);
+}
+
+/* --- Show-More-Btn | Styles --- */
+.places-container .packages-container .package .g-btn {
+    grid-column: 1/3;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 821px) and (max-width: 1024px) {
+    .top-container {
+        background-image: url("../Images/Places/usa/golden-gate-bridge-san-francisco/w1920.webp");
+    }
+
+    /* -------------- Places-Container | Styles -------------- */
+    .places-container {
+        margin-top: 7em;
+        padding: 3.5em 0;
+    }
+
+    /* -------------- Places-Container (Heading) | Styles -------------- */
+    .places-container .main .heading {
+        font-size: 1.65em;
+    }
+
+    /* --- Sub-Heading | Styles --- */
+    .places-container .main h2 {
+        font-size: 1.35em;
+    }
+
+    .places-container .sub-text {
+        padding-left: 0.9em;
+    }
+
+    /* -------------- Packages-Container | Styles -------------- */
+    .places-container .packages-container {
+        gap: 4em;
+        margin: 5em auto;
+    }
+
+    /* ------------ Package | Styles ------------- */
+    .places-container .packages-container .package {
+        gap: 2.5em;
+        padding: 0.8em 1.8em 2.8em;
+    }
+
+    /* --- Package-Heading | Styles --- */
+    .places-container .packages-container .package .country-name {
+        font-size: 1.75em;
+    }
+
+    /* --- Package-Card | Styles --- */
+    .places-container .packages-container .package .place-card .thumb {
+        height: 15em;
+    }
+
+    /* --- Package-Detail | Styles --- */
+    .places-container .packages-container .package .place-card .details {
+        padding: 0 1em 1em;
+    }
+
+    .places-container .packages-container .package .place-card .details h3 {
+        font-size: 1.125em;
+    }
+
+    .places-container .packages-container .package .place-card .accomodations {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0.5em;
+        padding-left: 1em;
+    }
+
+    /* --- BookNow-Btn | Styles --- */
+    .places-container .packages-container .package .place-card .booking {
+        margin-top: 2em;
+    }
+
+    .places-container .packages-container .package .place-card .booking .book-btn {
+        font-size: 1em;
+        padding: 0.45em 0.8em;
+        border-radius: 0.45em;
+    }
+
+    .places-container .packages-container .package .place-card .booking .price {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 820px) {
+
+    .top-container {
+        background-image: url("../Images/Places/usa/golden-gate-bridge-san-francisco/w1080.webp");
+    }
+
+    /* -------------- Places-Container | Styles -------------- */
+    .places-container {
+        margin-top: 6em;
+        padding: 3em 0;
+    }
+
+    /* -------------- Places-Container (Heading) | Styles -------------- */
+    .places-container .main .heading {
+        font-size: 1.5em;
+    }
+
+    /* --- Sub-Heading | Styles --- */
+    .places-container .main h2 {
+        font-size: 1.2em;
+    }
+
+    .places-container .sub-text {
+        padding-left: 0.85em;
+    }
+
+    /* --- Package-Heading | Styles --- */
+    .places-container .packages-container .package .country-name {
+        font-size: 1.75em;
+        grid-column: 1/2;
+    }
+
+    .places-container .packages-container .package .place-card {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* --- Show-More-Btn | Styles --- */
+    .places-container .packages-container .package .g-btn {
+        grid-column: 1/2;
+    }
+}
+
+@media (max-width: 698px) {
+
+    /* -------------- Places-Container | Styles -------------- */
+    .places-container {
+        margin-top: 5em;
+        padding: 2.5em 0;
+    }
+
+    /* -------------- Places-Container (Heading) | Styles -------------- */
+    .places-container .main .heading {
+        font-size: 1.35em;
+    }
+
+    /* --- Sub-Heading | Styles --- */
+    .places-container .main h2 {
+        font-size: 1.05em;
+    }
+
+    .places-container .sub-text {
+        padding-left: 0.8em;
+    }
+
+    /* -------------- Packages-Container | Styles -------------- */
+    .places-container .packages-container {
+        gap: 3em;
+        margin: 4em auto;
+    }
+
+    /* ------------ Package | Styles ------------- */
+    .places-container .packages-container .package {
+        gap: 2em;
+        padding: 0.8em 1.8em 2.8em;
+    }
+
+    /* --- Package-Heading | Styles --- */
+    .places-container .packages-container .package .country-name {
+        font-size: 1.5em;
+    }
+
+    /* --- Package-Card | Styles --- */
+    .places-container .packages-container .package .place-card {
+        width: 100%;
+    }
+
+    .places-container .packages-container .package .place-card .thumb {
+        height: 20em;
+    }
+
+    /* --- Package-Detail | Styles --- */
+    .places-container .packages-container .package .place-card .details {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 567px) {
+    .top-container {
+        background-image: url("../Images/Places/usa/golden-gate-bridge-san-francisco/w640.webp");
+    }
+
+    /* -------------- Places-Container | Styles -------------- */
+    .places-container {
+        margin-top: 4em;
+        padding: 2em 0;
+    }
+
+    /* -------------- Places-Container (Heading) | Styles -------------- */
+    .places-container .main {
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
+
+    .places-container .main .heading {
+        font-size: 1.2em;
+        text-align: right;
+    }
+
+    .places-container .main .heading .line-break {
+        display: none;
+    }
+
+    /* --- Sub-Heading | Styles --- */
+    .places-container .main h2 {
+        font-size: 1em;
+    }
+
+    .places-container .sub-text {
+        font-size: 0.9em;
+    }
+
+    /* -------------- Packages-Container | Styles -------------- */
+    .places-container .packages-container {
+        margin: 3em auto;
+    }
+
+    /* ------------ Package | Styles ------------- */
+    .places-container .packages-container .package {
+        padding: 0.6em 1em 2.6em;
+    }
+
+    /* --- Package-Heading | Styles --- */
+    .places-container .packages-container .package .country-name {
+        font-size: 1.25em;
+    }
+
+    /* --- Package-Card | Styles --- */
+    .places-container .packages-container .package .place-card .thumb {
+        height: 50vw;
+    }
+
+    /* --- Package-Detail | Styles --- */
+    .places-container .packages-container .package .place-card .details {
+        font-size: 0.9em;
+        padding: 0 1em 1em;
+    }
+
+    .places-container .packages-container .package .place-card .details h3 {
+        font-size: 1.125em;
+    }
+
+    .places-container .packages-container .package .place-card .accomodations {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0.5em;
+        padding-left: 1em;
+    }
+
+    /* --- BookNow-Btn | Styles --- */
+    .places-container .packages-container .package .place-card .booking {
+        margin-top: 2em;
+    }
+
+    .places-container .packages-container .package .place-card .booking .book-btn {
+        font-size: 1em;
+        padding: 0.45em 0.7em;
+        border-radius: 0.45em;
+    }
+
+    .places-container .packages-container .package .place-card .booking .price {
+        font-size: 1.05em;
+    }
+}

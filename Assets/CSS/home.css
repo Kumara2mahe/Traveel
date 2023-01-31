@@ -1,0 +1,114 @@
+/* ---------------------- Home Page | Styles -------------------------
+------------------------------------------------------------------ */
+
+/* -------------- Top-Container | Styles -------------- */
+.top-container {
+    background-image: url("../Images/Places/usa/three-tables-beach-haleiwa/w2400.webp");
+}
+
+.top-container .top-content {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* --- Popular-Card | Styles --- */
+.top-container .top-content .popular-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1.5em;
+    box-shadow: 0 0 1em rgba(255, 165, 48, 0.2);
+    position: absolute;
+    bottom: -5em;
+    right: 0;
+}
+
+.top-container .top-content .popular-card:hover {
+    box-shadow: 0 0 1em rgba(255, 165, 48, 0.4);
+}
+
+.top-container .top-content .popular-card a {
+    color: var(--orangepeel);
+    opacity: 0.7;
+}
+
+.top-container .top-content .popular-card a:hover {
+    opacity: 1;
+}
+
+.top-container .top-content .popular-card .card-thumb {
+    overflow: hidden;
+}
+
+.top-container .top-content .popular-card:hover img {
+    transform: scale(2);
+    transition: 5s;
+}
+
+.top-container .top-content .popular-card img {
+    transition: 3s;
+}
+
+
+@media (max-width: 1024px) {
+
+    /*  Responsive Styles for
+            - Tablets and
+            - Small Tablets
+    */
+
+    /* -------------- Top-Container | Styles -------------- */
+    .top-container {
+        background-image: url("../Images/Places/usa/three-tables-beach-haleiwa/w1920.webp");
+    }
+
+    /* --- Popular-Card | Styles --- */
+    .top-container .top-content .popular-card {
+        gap: 1em;
+        padding: 1em;
+        box-shadow: 0 0 0.75em rgba(255, 165, 48, 0.2);
+        bottom: -3.5em;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /*  Responsive Styles for
+            - Small Tablets and
+            - Mobiles
+    */
+
+    /* -------------- Top-Container | Styles -------------- */
+    .top-container {
+        background-image: url("../Images/Places/usa/three-tables-beach-haleiwa/w1080.webp");
+    }
+
+    .top-container .top-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.5fr;
+    }
+
+    /* --- Popular-Card | Styles --- */
+    .top-container .top-content .popular-card {
+        gap: 0.5em;
+        padding: 1em;
+        box-shadow: 0 0 0.5em rgba(255, 165, 48, 0.2);
+        bottom: -1em;
+    }
+
+    .top-container .top-content .popular-card:hover {
+        box-shadow: 0 0 0.5em rgba(255, 165, 48, 0.4);
+    }
+}
+
+@media (max-width: 500px) {
+
+    /* -------------- Top-Container | Styles -------------- */
+    .top-container {
+        background-image: url("../Images/Places/usa/three-tables-beach-haleiwa/w640.webp");
+    }
+}

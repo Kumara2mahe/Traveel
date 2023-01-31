@@ -1,0 +1,30 @@
+/* ---------------------- About Page | Styles -------------------------
+------------------------------------------------------------------ */
+
+.top-container {
+    background-image: url("../Images/Places/maldives/kudahuvadhoo/w2400.webp");
+}
+
+@media (max-width: 1024px) {
+    .top-container {
+        background-image: url("../Images/Places/maldives/kudahuvadhoo/w1920.webp");
+    }
+}
+
+@media (max-width: 1000px) {
+    .line-break {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .top-container {
+        background-image: url("../Images/Places/maldives/kudahuvadhoo/w1080.webp");
+    }
+}
+
+@media (max-width: 500px) {
+    .top-container {
+        background-image: url("../Images/Places/maldives/kudahuvadhoo/w640.webp");
+    }
+}

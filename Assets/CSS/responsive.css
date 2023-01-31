@@ -1,0 +1,430 @@
+/* --------------------- (Responsive) Web Page | Styles -----------------------
+------------------------------------------------------------------------ */
+
+@media (max-width: 1024px) {
+
+    /*  Responsive Styles for
+            - Tablets and
+            - Small Tablets
+    */
+
+    /* --- Image Dimensions | Styles --- */
+
+    img.smaller {
+        width: 4em;
+    }
+
+    img.small {
+        width: 9em;
+    }
+
+    img.normal {
+        width: 19em;
+    }
+
+    /* --- Gradient-Button | Styles --- */
+    .g-btn {
+        font-size: 1.1em;
+        padding: 0.4em 0.9em;
+        border-radius: 0.6em;
+    }
+
+    /* -------------- Top-Container | Styles -------------- */
+    .top-container .top-content {
+        padding: 4em 0;
+    }
+
+    .top-container .top-content h1 {
+        font-size: 3.25em;
+    }
+
+    /* --- Banner-Location | Style --- */
+    .top-container .location a {
+        font-size: 0.95em;
+        gap: 0.4em;
+        padding: 0.45em 0.7em;
+        border-radius: 0.9em 0.9em 0 0;
+    }
+
+    .top-container .location img {
+        width: 1.75em;
+    }
+
+    /* -------------- Middle-Container | Styles -------------- */
+    .middle-container .middle-content {
+        gap: 1em;
+        margin: 5em auto;
+    }
+
+    .middle-container .middle-content .img-thumb img.first {
+        right: 30%;
+    }
+
+    .middle-container .middle-content .img-thumb img.second {
+        left: 30%;
+    }
+
+    /* --- Text Content | Styles --- */
+    .middle-container .middle-content h2 {
+        font-size: 1.4em;
+        width: 90%;
+        padding: 2em 0 2em 1em;
+    }
+
+    /* -------------- Stats-Container | Styles ------------- */
+    .stat-container {
+        margin: 3em 0;
+    }
+
+    .stat-container .badge .count {
+        font-size: 2.5em;
+    }
+
+    /* -------------- Bottom-Container | Styles -------------- */
+    .bottom-container {
+        background-image: url("../Images/Places/yellow-flower-field/subscribe_w1920.webp");
+        padding: 2em 0;
+    }
+
+    .bottom-container .newsletter {
+        padding: 2em 4em;
+    }
+
+    .bottom-container .newsletter h2 {
+        font-size: 1.5em;
+    }
+
+    /* --- Subscribe-Form | Styles --- */
+    .bottom-container .newsletter form {
+        padding: 2em 0;
+        gap: 0.05em;
+    }
+
+    .bottom-container .newsletter input.news-email {
+        padding: 0.5em 0.8em;
+    }
+
+    /* -------------- Footer | Styles -------------- */
+
+    footer {
+        padding: 1.5em 0;
+    }
+
+    /* --- Footer-Logo | Styles --- */
+    footer .infos .bottominfo-links,
+    footer .infos h3 {
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    footer .infos .bottominfo-links {
+        grid-column: 1/5;
+        margin-bottom: 0;
+    }
+
+    footer .infos p {
+        font-size: 0.9em;
+    }
+
+    /* -- Social-link | Styles -- */
+    footer .infos .social-links img {
+        box-sizing: content-box;
+        width: 1.2em;
+        margin-right: 0.05em;
+        padding: 0.2em;
+        border-radius: 0.5em;
+    }
+
+    /* --- Footer-Links | Styles --- */
+    footer .infos .related-links {
+        width: 100%;
+    }
+
+    footer .infos .related-links:last-of-type {
+        width: fit-content;
+        grid-column: 3/5;
+    }
+
+    footer .infos .related-links h3 {
+        font-size: 1.1em;
+    }
+
+    footer .infos .related-links a {
+        font-size: 0.95em;
+        margin-top: 0.4em;
+    }
+
+    /* --- Footer-copyrights | Styles --- */
+    footer .copyrights {
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /*  Responsive Styles for
+            - Small Tablets and
+            - Mobiles
+    */
+
+    /* --- Image Dimensions | Styles --- */
+
+    img.smaller {
+        width: 3.5em;
+    }
+
+    img.small {
+        width: 7.5em;
+    }
+
+    img.normal {
+        width: 17.5em;
+    }
+
+    /* -------------- Header | Styles -------------- */
+
+    .nav-bar .nav-links {
+        display: none;
+    }
+
+    .nav-bar .hammenu {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        width: 1.5em;
+        height: 1em;
+    }
+
+    .nav-bar .hammenu span {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .nav-bar .hammenu span::after {
+        top: 0;
+    }
+
+    /* -------------- Top-Container | Styles -------------- */
+    .top-container .top-content {
+        padding: 3em 0;
+    }
+
+    .top-container .top-content h1 {
+        font-size: 2.75em;
+    }
+
+    /* --- Banner-Location | Style --- */
+    .top-container .location a {
+        font-size: 0.9em;
+        gap: 0.3em;
+        padding: 0.4em 0.65em;
+        border-radius: 0.8em 0.8em 0 0;
+    }
+
+    .top-container .location img {
+        width: 1.5em;
+    }
+
+    /* -------------- Middle-Container | Styles -------------- */
+    .middle-container .middle-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0;
+        margin-bottom: 3em;
+    }
+
+    /* --- Image Container | Styles --- */
+    .middle-container .middle-content .img-thumb img.first {
+        right: 40%;
+    }
+
+    .middle-container .middle-content .img-thumb img.second {
+        left: 40%;
+        bottom: -20%;
+    }
+
+    /* --- Text Content | Styles --- */
+    .middle-container .middle-content h2 {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding-top: 3em;
+    }
+
+    @media (max-width: 750px) {
+        .middle-container .middle-content h2 {
+            padding: 2.5em 0.5em;
+        }
+    }
+
+    /* -------------- Stats-Container | Styles ------------- */
+    .stat-container {
+        margin: 2em 0;
+    }
+
+    .stat-container .badge .count {
+        font-size: 2.25em;
+    }
+
+    /* -------------- Bottom-Container | Styles -------------- */
+    .bottom-container {
+        background-image: url("../Images/Places/yellow-flower-field/subscribe_w1080.webp");
+        padding: 1em 0;
+    }
+
+    .bottom-container .newsletter {
+        padding: 1.5em 2em;
+    }
+
+    .bottom-container .newsletter h2 {
+        font-size: 1.25em;
+    }
+
+    .bottom-container .newsletter p {
+        font-size: 0.9em;
+    }
+
+    /* --- Subscribe-Form | Styles --- */
+    .bottom-container .newsletter form {
+        padding: 2em 0;
+    }
+
+    .bottom-container .newsletter input.news-email {
+        font-size: 0.9em;
+    }
+
+    .bottom-container .newsletter .g-btn {
+        font-size: 0.9em;
+    }
+
+    /* --- Footer-Logo | Styles --- */
+    footer .infos p {
+        font-size: 0.85em;
+    }
+
+    /* -- Social-link | Styles -- */
+    footer .infos .social-links {
+        margin-bottom: 1em;
+    }
+
+    footer .infos .social-links img {
+        width: 1.1em;
+        margin-right: 0.04em;
+        padding: 0.15em;
+        border-radius: 0.4em;
+    }
+
+    footer .infos .related-links h3 {
+        font-size: 1em;
+    }
+
+    footer .infos .related-links a {
+        font-size: 0.9em;
+        margin-top: 0.3em;
+    }
+
+    /* --- Footer-copyrights | Styles --- */
+    footer .copyrights small {
+        font-size: 0.75em;
+    }
+}
+
+@media (max-width: 500px) {
+
+    /* --- Image Dimensions | Styles --- */
+
+    img.normal {
+        width: 15em;
+    }
+
+    /* --- Image Container | Styles --- */
+    .middle-container .middle-content .img-thumb img.first {
+        right: 30%;
+    }
+
+    .middle-container .middle-content .img-thumb img.second {
+        left: 30%;
+        bottom: 0;
+    }
+
+    /* --- Text Content | Styles --- */
+    .middle-container .middle-content h2 {
+        font-size: 1.3em;
+    }
+
+    /* -------------- Bottom-Container | Styles -------------- */
+    .bottom-container {
+        background-image: url("../Images/Places/yellow-flower-field/subscribe_w640.webp");
+    }
+
+    /* -------------- Stats-Container | Styles ------------- */
+    .stat-container {
+        margin: 2em 0;
+    }
+
+    .stat-container .badge {
+        margin: 1em auto;
+    }
+
+    .stat-container .badge .count {
+        font-size: 2em;
+    }
+
+    /* --- Subscribe-Form | Styles --- */
+    .bottom-container .newsletter form {
+        display: flex;
+        flex-flow: column;
+        gap: 1em;
+    }
+
+    .bottom-container .newsletter input.news-email {
+        width: 100%;
+        border-right: 0.2em solid var(--orangepeel);
+        border-radius: 1em;
+    }
+
+    .bottom-container .newsletter .g-btn {
+        width: fit-content;
+        margin: 0 auto;
+        border-radius: 1em;
+    }
+
+    /* -------------- Footer | Styles -------------- */
+    footer .infos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+    }
+
+    /* --- Footer-Logo | Styles --- */
+    footer .infos .bottominfo-links,
+    footer .infos h3 {
+        margin-top: 1.2em;
+        margin-bottom: 0.5em;
+    }
+
+    footer .infos .bottominfo-links {
+        grid-column: auto;
+        height: fit-content;
+    }
+
+    /* --- Footer-Links | Styles --- */
+    footer .infos .related-links:last-of-type {
+        grid-column: auto;
+        width: 100%;
+    }
+
+    footer .infos .related-links h3 {
+        font-size: 0.95em;
+    }
+
+    footer .infos .related-links a {
+        font-size: 0.85em;
+        margin-top: 0.2em;
+    }
+
+    /* --- Footer-copyrights | Styles --- */
+    footer .copyrights {
+        margin-top: 1.5em;
+    }
+}
