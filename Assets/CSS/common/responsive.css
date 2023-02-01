@@ -82,7 +82,7 @@
 
     /* -------------- Bottom-Container | Styles -------------- */
     .bottom-container {
-        background-image: url("../Images/Places/yellow-flower-field/subscribe_w1920.webp");
+        background-image: url("../../Images/Places/yellow-flower-field/subscribe_w1920.webp");
         padding: 2em 0;
     }
 
@@ -141,6 +141,7 @@
     }
 
     footer .infos .related-links:last-of-type {
+        width: -moz-fit-content;
         width: fit-content;
         grid-column: 3/5;
     }
@@ -268,7 +269,7 @@
 
     /* -------------- Bottom-Container | Styles -------------- */
     .bottom-container {
-        background-image: url("../Images/Places/yellow-flower-field/subscribe_w1080.webp");
+        background-image: url("../../Images/Places/yellow-flower-field/subscribe_w1080.webp");
         padding: 1em 0;
     }
 
@@ -354,7 +355,7 @@
 
     /* -------------- Bottom-Container | Styles -------------- */
     .bottom-container {
-        background-image: url("../Images/Places/yellow-flower-field/subscribe_w640.webp");
+        background-image: url("../../Images/Places/yellow-flower-field/subscribe_w640.webp");
     }
 
     /* -------------- Stats-Container | Styles ------------- */
@@ -384,6 +385,7 @@
     }
 
     .bottom-container .newsletter .g-btn {
+        width: -moz-fit-content;
         width: fit-content;
         margin: 0 auto;
         border-radius: 1em;
@@ -405,6 +407,7 @@
 
     footer .infos .bottominfo-links {
         grid-column: auto;
+        height: -moz-fit-content;
         height: fit-content;
     }
 

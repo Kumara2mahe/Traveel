@@ -191,6 +191,7 @@ article .bg-img-screen {
     background-color: rgba(0, 0, 0, 0.8);
     color: var(--white);
     opacity: 0.5;
+    width: -moz-fit-content;
     width: fit-content;
     padding: 0.5em 0.75em;
     border-radius: 1em 1em 0 0;
@@ -294,7 +295,7 @@ article .bg-img-screen {
 
 /* -------------- Bottom-Container | Styles -------------- */
 .bottom-container {
-    background: url("../Images/Places/yellow-flower-field/subscribe_w2400.webp") no-repeat top/cover;
+    background: url("../../Images/Places/yellow-flower-field/subscribe_w2400.webp") no-repeat top/cover;
     padding: 4em 0;
 }
 
@@ -415,6 +416,7 @@ footer .infos .social-links img:hover {
 
 /* --- Footer-Links | Styles --- */
 footer .infos .related-links {
+    width: -moz-fit-content;
     width: fit-content;
     margin-left: auto;
 }
