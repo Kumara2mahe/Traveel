@@ -10,6 +10,3 @@ firebase-debug.*.log*
 # Firebase config
 .firebaserc
 firebase.json
-
-# Error template
-404.*

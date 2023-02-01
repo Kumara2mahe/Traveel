@@ -1,0 +1,79 @@
+#error-container {
+    text-align: center;
+    margin: 4em auto;
+}
+
+#error-container h2 {
+    margin-top: 0;
+}
+
+#error-container #error {
+    width: --moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+}
+
+#error #code {
+    font-size: 15em;
+    margin: 0;
+}
+
+#error #message {
+    font-size: 2em;
+    font-weight: 600;
+    background-color: var(--white);
+    color: var(--orangepeel);
+    padding: 0.1em 0 0.05em;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+}
+
+#error-container #brief-note {
+    margin: 1em 0;
+}
+
+#error-container .g-btn {
+    color: var(--white);
+}
+
+@media (min-width: 555px) and (max-width: 767px) {
+    #error #code {
+        font-size: 13em;
+    }
+
+    #error #message {
+        font-size: 1.8em;
+        padding: 0.08em 0 0.04em;
+    }
+
+    @media (min-width: 694px) {
+        .line-break {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 554px) {
+    #error #code {
+        font-size: 11em;
+    }
+
+    #error #message {
+        font-size: 1.6em;
+        padding: 0.06em 0 0.03em;
+    }
+}
+
+@media (max-width: 442px) {
+    #error #code {
+        font-size: 9em;
+    }
+
+    #error #message {
+        font-size: 1.4em;
+        padding: 0.04em 0 0.02em;
+    }
+}
